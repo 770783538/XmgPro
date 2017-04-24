@@ -1,0 +1,162 @@
+body{
+    background: #fff;
+}
+.banner{
+    width: 900px;
+    height: 100px;
+    margin:30px auto;
+    text-align: center;
+}
+.nav{
+    width:100%;
+    height: 100px;
+    position: absolute;
+    left:0;
+    top: 100px;
+    background: #fff;
+    border-bottom:1px solid #cccccc;
+}
+.nav .nav_content{
+    width: 900px;
+    margin:0 auto;
+    line-height: 100px;
+    height: 100px;
+
+
+}
+.nav_content .nav_left{
+    float: left;
+}
+.nav_content img{
+    width: 130px;
+    height: 44px;
+    opacity:0;
+
+}
+.nav_content .nav_right{
+    float: left;
+    height:100px;
+    line-height:100px;
+    margin-left:10px;
+}
+.nav_right input[type = text]{
+    width: 530px;
+    height: 44px;
+    border:1px solid #ccc;
+    padding-left:10px;
+    font-size:16px;
+}
+.nav_right input[type= submit]{
+    width: 100px;
+    height: 44px;
+    background: orangered;
+    position: relative;
+    left:-5px;
+    color: #F1F1F4;
+    font-size:14px;
+    font-family:'微软雅黑';
+    cursor: pointer;
+}
+.content{
+    width: 900px;
+    height: 2000px;
+    margin:0 auto;
+    margin-top:105px;
+    border:1px solid #ccc;
+}
+.content .header{
+    height:44px;
+    border-bottom: 1px solid #ccc;
+}
+.content .header li{
+    height:44px;
+    line-height:44px;
+    float: left;
+    padding:0 20px;
+}
+.content .header .curr{
+    background: #666;
+    color: white;
+}
+.content .body{
+    display: none;
+}
+.content .active{
+    display: block;
+}
+.body li{
+    height:44px;
+    line-height:44px;
+    padding-left:10px;
+    border-bottom: 1px solid #ccc;
+}
+.body .del,.detail{
+    float: right;
+    color: darkblue;
+    margin-right:10px;
+
+}
+
+.back_top{
+    position: fixed;
+    bottom:10px;
+    right:10px;
+    display: none;
+    cursor: pointer;
+}
+.mask{
+    width:100%;
+    height:100%;
+    position: fixed;
+    left:0;
+    top:0;
+    display: none;
+    background: rgba(0,0,0,0.3);
+}
+.mask .detail_content{
+    width: 320px;
+    height: 300px;
+    margin:200px auto;
+    background: #fff;
+    padding:10px;
+}
+.detail_content .detail_header{
+    height: 44px;
+    margin-left:10px;
+    line-height:44px;
+
+}
+.detail_header .close{
+    float: right;
+
+}
+.detail_body textarea{
+    width:300px;
+    height:130px;
+    border:1px solid orangered;
+    background: #ccc;
+    resize: none;
+
+
+}
+.detail_body input[type=text]{
+
+    width: 300px;
+    height: 44px;
+    padding-left:10px;
+    background: #ccc;
+
+}
+.detail_body button{
+    width: 100px;
+    height: 30px;
+    background: #ff4400;
+    float: right;
+    margin-top:10px;
+    margin-right:10px;
+    color: white;
+    font-family:'微软雅黑';
+}
+video{
+    opacity: 0;
+}
